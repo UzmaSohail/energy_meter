@@ -1,0 +1,56 @@
+/* Reset default margin and padding */
+body, h3, p, table {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style headings */
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Style paragraphs */
+  p {
+    margin-bottom: 5px;
+  }
+  
+  /* Style table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  /* Style table headings */
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style table data cells */
+  td {
+    padding: 8px;
+  }
+  
+  /* Alternate row background color */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style S.no column */
+  td:first-child {
+    text-align: center;
+  }
+  
+  /* Style Parameters column */
+  td:nth-child(2) {
+    font-weight: bold;
+  }
+  
+  /* Style Values column */
+  td:nth-child(3) {
+    font-style: italic;
+  }
+  

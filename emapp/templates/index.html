@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+{% extends "base.html"%}
+{% block starts%}
+<h3>ENERGY METER</h3>.<br>
+<p> Current measured is : <b>{{current}} A</p></b>
+<p> Energy measured is : <b>{{energy}} KWh</p></b>
+<p> PF measured is : <b>{{pf}}</p></b>
+<p> Power measured is : <b>{{power}} W</p></b>
+<p> Frequency measured is : <b>{{frequency}} Hz</p></b>
+<p> Voltage measured is : <b>{{voltage}} V</p></b>
+
+<table border="1">
+    <tr>
+      <th>S.no</th>
+      <th>Parameters</th>
+      <th>Values</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Current</td>
+      <td>{{current}} A</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Energy</td>
+      <td>{{energy}} KWh</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>PF</td>
+        <td>{{pf}}</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Power</td>
+        <td>{{power}} W</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Frequency</td>
+        <td>{{frequency}} Hz</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Voltage</td>
+        <td>{{voltage}} V</td>
+      </tr>
+  </table>
+  
+ 
+{% endblock %} 
+  
+
